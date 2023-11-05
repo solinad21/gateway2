@@ -32,10 +32,10 @@
 # development
 $ npm run dev
 
-```bash
 # test
 
-To test the endpoints (in Visual Studio Code using REST Client), I utilize the following (test.http in the project's root directory):
+To test the endpoints (in Visual Studio Code using REST Client),
+I utilize the following (test.http in the project's root directory):
 
 ###
 POST http://localhost:3000/service1 HTTP/1.1

@@ -7,8 +7,7 @@ export class Service1Controller {
   constructor(private readonly service1Service: Service1Service) {}
 
   @MessagePattern({ cmd: 'service_1' })
-  servicio1(data: any) {
-    console.log(data);
+  servicio1(data: any) {    
     return this.service1Service.getHello(data);
   }
 }

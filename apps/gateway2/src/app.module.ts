@@ -7,7 +7,23 @@ import { ClientsModule, Transport } from '@nestjs/microservices';
   imports: [
     ClientsModule.register([
       {
-        name: 'MAIN_SERVICE', transport: Transport.TCP
+        name: 'SERVICE_MAILS', transport: Transport.TCP,options: {
+          port: 8871
+        }
+      }
+    ]),
+    ClientsModule.register([
+      {
+        name: 'SERVICE_FACTURACION', transport: Transport.TCP,options: {
+          port: 8872
+        }
+      }
+    ]),
+    ClientsModule.register([
+      {
+        name: 'SERVICE_TABLAS', transport: Transport.TCP,options: {
+          port: 8873
+        }
       }
     ]),
   ],

@@ -7,6 +7,9 @@ async function bootstrap() {
     Service2Module,
     {
       transport: Transport.TCP,
+      options: {
+        port: 8872
+      }
     },
   );
   await app.listen();

@@ -24,10 +24,12 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+[Nest](https://github.com/nestjs/nest)
+
+This project serves as a foundational starting point for a microservices application, utilizing NestJS's documentation as a guiding resource. NestJS provided the necessary framework for efficiency and scalability, laying the groundwork for future development. Special thanks to NestJS for their valuable support.
 
 
-Si desea crear el proyecto manualmente estos son los pasos:
+If you wish to create the project manually, here are the steps:
 
 ```
 nest new gateway2
@@ -39,7 +41,7 @@ npm i --save @nestjs/microservices
 npm i -D concurrently
 ```
 
-agregar en package.json en la seccion de scripts en mi caso lo hice despues de start
+Add in the 'package.json' under the 'scripts' section, in my case, I did it after 'start':
 
 ```
 "dev": "concurrently \"nest start gateway2 --watch\" \"nest start service1 --watch\" \"nest start service2 --watch\" \"nest start service3 --watch\"",

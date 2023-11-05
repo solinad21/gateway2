@@ -1,16 +1,16 @@
-POST http://localhost:3008/service1 HTTP/1.1
+POST http://localhost:3000/service1 HTTP/1.1
 content-type: application/json
 
 {"name": "polo perez"}
 
 ###
-POST http://localhost:3008/service2 HTTP/1.1
+POST http://localhost:3000/service2 HTTP/1.1
 content-type: application/json
 
 {"name": "juan lopez"}
 
 ###
-POST http://localhost:3008/service3 HTTP/1.1
+POST http://localhost:3000/service3 HTTP/1.1
 content-type: application/json
 
 {"name": "rosa ruiz"}

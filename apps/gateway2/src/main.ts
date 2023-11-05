@@ -3,7 +3,8 @@ import { AppModule } from './app.module';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
-  await app.listen(3008);
+  await app.listen(3000);
   console.log(`Gateway is running on: ${await app.getUrl()}`);
 }
 bootstrap();
+

@@ -32,15 +32,28 @@
 # development
 $ npm run dev
 
-## Support
+```bash
+# test
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+To test the endpoints (in Visual Studio Code using REST Client), I utilize the following (test.http in the project's root directory):
 
-## Stay in touch
+###
+POST http://localhost:3000/service1 HTTP/1.1
+content-type: application/json
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+{"name": "polo perez"}
+
+###
+POST http://localhost:3000/service1 HTTP/1.1
+content-type: application/json
+
+{"name": "juan lopez"}
+
+###
+POST http://localhost:3000/service1 HTTP/1.1
+content-type: application/json
+
+{"name": "rosa ruiz"}
 
 ## License
 

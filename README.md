@@ -29,21 +29,21 @@
 
 Si desea crear el proyecto manualmente estos son los pasos:
 
+```
 nest new gateway2
-
 cd gateway2
-
 nest generate app service1
 nest generate app service2
 nest generate app service3
-
 npm i --save @nestjs/microservices
-
 npm i -D concurrently
+```
 
 agregar en package.json en la seccion de scripts en mi caso lo hice despues de start
 
+```
 "dev": "concurrently \"nest start gateway2 --watch\" \"nest start service1 --watch\" \"nest start service2 --watch\" \"nest start service3 --watch\"",
+```
 
 
 ## Running the app

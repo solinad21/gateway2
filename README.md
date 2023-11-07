@@ -26,7 +26,7 @@
 
 [Nest](https://github.com/nestjs/nest)
 
-This project serves as a foundational starting point for a microservices application, utilizing NestJS's documentation as a guiding resource. NestJS provided the necessary framework for efficiency and scalability, laying the groundwork for future development. Special thanks to NestJS for their valuable support.
+This project serves as a foundational starting point for a microservices application, utilizing NestJS's documentation as a guiding resource. NestJS provided the necessary framework for efficiency and scalability, laying the groundwork for future development. Special thanks to NestJS for their valuable support. In this basic project, the TCP transport method was used.
 
 
 If you wish to create the project manually, here are the steps:
